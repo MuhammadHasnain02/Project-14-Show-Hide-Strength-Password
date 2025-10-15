@@ -16,11 +16,11 @@ password.addEventListener("input" , () => {
     }
     else if (password.value.length <= 8) {
         txt.innerText = "Password is medium"
-        txt.style.color = "yellow"
+        txt.style.color = "#d5b60a"
     }
     else {
         txt.innerText = "Password is strong"
-        txt.style.color = "#26d730"
+        txt.style.color = "#008d00"
     }
 
 })
